@@ -1,0 +1,2 @@
+#!/bin/bash
+makeblastdb -dbtype nucl -parse_seqids -hash_index -in $1 -title $2 -out $3
